@@ -13,7 +13,7 @@ const app = express()
 // connect to db
 await connectDB()
 
-app.post('/webhooks', clerkWebhooks)
+
 
 // middle wares
 app.use(cors())
@@ -26,7 +26,7 @@ app.get("/debug-sentry", function mainHandler(req, res) {
   throw new Error("My first Sentry error!");
 });
 
-
+app.post('/webhooks', clerkWebhooks)
 
 // Clerk webhook ke liye raw body chahiye
 // app.post(
