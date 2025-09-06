@@ -94,7 +94,7 @@ const Applications = () => {
                 ? ( 
                     <tr key={index}>
                       <td className='py-3 px-4 flex items-center gap-2 border-b border-gray-200'>
-                        <img src={job.companyId.image} alt="" />
+                        <img src={job.companyId.image} alt=""  className="w-8 h-8 object-contain rounded" />
                         {job.companyId.name}
                       </td>
                       <td className='py-1 px-4 border-b border-gray-200 '>{job.jobId.title}</td>
