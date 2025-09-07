@@ -30,7 +30,11 @@ Deployment: Vercel
 git clone https://github.com/Deepak-Ray-Star/deepak-job-portal-new.git
 
 # Backend setup
-cd server && npm install && npm run server
+-> cd server 
+-> npm install
+-> npm run server
 
 # Frontend setup
-cd client && npm install && npm run dev
+-> cd client 
+-> npm install 
+-> npm run dev
